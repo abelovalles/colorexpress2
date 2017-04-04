@@ -17,11 +17,11 @@ import { ObInfoRestService } from './ObInfoRestService';
 export class CotizarCartComponent {
 // creamos un nuevo objeto de form y seteamos su tipo como complexform
   complexForm: FormGroup;
-  private tipoDeTrabajo: any;
-  private materialDe= [ 'Sin Impresion', 'Con Impresion' ];
-  private porta= ['Si', 'No'];
-  private imp = 'Carnet';
-  private postData: String;
+  tipoDeTrabajo: any;
+  materialDe= [ 'Sin Impresion', 'Con Impresion' ];
+  porta= ['Si', 'No'];
+  imp = 'Carnet';
+  postData: String;
 
 
 
